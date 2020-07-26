@@ -1,0 +1,80 @@
+*{
+    padding:  0px;
+     margin :0px;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+    display: block;
+    padding: 20px 5px;
+    color: white;
+    align-self: start;
+}
+a:hover{
+    background-color: rgb(176,224,230);
+    color: rgb(82, 73, 60);
+    color: black;
+}
+body{
+    font-family: arial;
+    background-image: url(fundo.jpg);
+    background-size: 100%;
+      
+    
+}
+img{
+  width: 70px;
+}
+input[type="checkbox"]:checked ~ nav 
+{
+transform: translateX(300px);   
+}
+input{
+   display: none;
+}
+nav{
+    background-color: rgba(16,16,16,.5);
+    width: 250px;
+    height: 100%;
+    left: -300px;
+    position: absolute;
+    transition: all 1s;
+}
+label{
+    padding: -5px;
+    position: absolute;
+    z-index: 1;
+    
+}
+ul{
+   
+    top:70px;
+    position: absolute;
+    width: 100%;
+    list-style: none;
+} 
+    
+
+
+#corpo{
+    width: 850px;
+    height: 500px;
+    margin: 0 auto 0 auto ;
+    position: relative;
+}
+.imagemdotexto{
+    width: 300px;
+    border: 100px;
+    zoom :500%;
+}
+.conteudo{
+    height:-120px;
+    widows: 500px; 
+}
+.texto{
+    padding: 40px;
+    position: relative;
+    height: 30px;
+
+}
